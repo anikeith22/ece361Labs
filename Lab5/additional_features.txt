@@ -1,0 +1,10 @@
+We have implemented two additional features in our text conferencing app 
+
+1. We have a register command from the client side that will register an user that will be added to the users database, 
+it will check if that user is already in the database or not, if it is then registeration fails but if that user is not registered
+then the server will register that user and also log them in at the same time, logging in with the unregistered user 
+will not be allowed. 
+
+2. We have a timer feature which will kick off an user from the text conferencing app if this user does not make any messages (for 20 seconds)
+once logged in a session. 
+
